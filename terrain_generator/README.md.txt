@@ -1,0 +1,1 @@
+C:\Users\ASUS\AppData\Local\Programs\Python\Python37\Scripts\pyuic5 -x untitled.ui -o window.py
