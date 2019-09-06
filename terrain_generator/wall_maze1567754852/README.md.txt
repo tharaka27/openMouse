@@ -1,0 +1,1 @@
+Idea was to check how algorithm works in a dead end situation

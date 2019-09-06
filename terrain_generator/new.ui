@@ -183,7 +183,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R1C8_R2C9_Horizontal">
+   <widget class="QPushButton" name="R8C5_R9C5_Horizontal">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -1886,7 +1886,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R1C12_R2C13_Horizontal">
+   <widget class="QPushButton" name="R12C5_R13C5_Horizontal">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -2393,7 +2393,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R1C9_R2C10_Horizontal">
+   <widget class="QPushButton" name="R9C5_R10C5_Horizontal">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -2406,7 +2406,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R1C13_R2C14_Horizontal">
+   <widget class="QPushButton" name="R13C2_R14C2_Horizontal">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -3602,7 +3602,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R12C1_R13C1_Vertical">
+   <widget class="QPushButton" name="R1C12_R1C13_Vertical">
     <property name="geometry">
      <rect>
       <x>497</x>
@@ -4044,7 +4044,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R111C2_R12C2_Horizontal">
+   <widget class="QPushButton" name="R11C2_R12C2_Horizontal">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -5084,7 +5084,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R1C11_R2C12_Horizontal">
+   <widget class="QPushButton" name="R11C5_R12C5_Horizontal">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -5162,7 +5162,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R1C10_R2C11_Horizontal">
+   <widget class="QPushButton" name="R10C5_R11C5_Horizontal">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -5396,7 +5396,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="R3C1_R3C12_Vertical">
+   <widget class="QPushButton" name="R3C1_R3C2_Vertical">
     <property name="geometry">
      <rect>
       <x>54</x>

@@ -14,7 +14,7 @@ import re
 import time
 
 
-string = []
+
 maze_dic = {}
 
 class Ui_MainWindow(object):
@@ -137,11 +137,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R1C8_R2C9_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C8_R2C9_Horizontal.setGeometry(QtCore.QRect(180, 400, 39, 8))
-        self.R1C8_R2C9_Horizontal.setText("")
-        self.R1C8_R2C9_Horizontal.setObjectName("R1C8_R2C9_Horizontal")
-        self.R1C8_R2C9_Horizontal.clicked.connect(partial(self.addtodict,self.R1C8_R2C9_Horizontal))
+        self.R8C5_R9C5_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R8C5_R9C5_Horizontal.setGeometry(QtCore.QRect(180, 400, 39, 8))
+        self.R8C5_R9C5_Horizontal.setText("")
+        self.R8C5_R9C5_Horizontal.setObjectName("R8C5_R9C5_Horizontal")
+        self.R8C5_R9C5_Horizontal.clicked.connect(partial(self.addtodict,self.R8C5_R9C5_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -1198,11 +1198,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R1C12_R2C13_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C12_R2C13_Horizontal.setGeometry(QtCore.QRect(180, 600, 39, 8))
-        self.R1C12_R2C13_Horizontal.setText("")
-        self.R1C12_R2C13_Horizontal.setObjectName("R1C12_R2C13_Horizontal")
-        self.R1C12_R2C13_Horizontal.clicked.connect(partial(self.addtodict,self.R1C12_R2C13_Horizontal))
+        self.R12C5_R13C5_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R12C5_R13C5_Horizontal.setGeometry(QtCore.QRect(180, 600, 39, 8))
+        self.R12C5_R13C5_Horizontal.setText("")
+        self.R12C5_R13C5_Horizontal.setObjectName("R12C5_R13C5_Horizontal")
+        self.R12C5_R13C5_Horizontal.clicked.connect(partial(self.addtodict,self.R12C5_R13C5_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -1518,19 +1518,19 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R1C9_R2C10_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C9_R2C10_Horizontal.setGeometry(QtCore.QRect(180, 450, 39, 8))
-        self.R1C9_R2C10_Horizontal.setText("")
-        self.R1C9_R2C10_Horizontal.setObjectName("R1C9_R2C10_Horizontal")
-        self.R1C9_R2C10_Horizontal.clicked.connect(partial(self.addtodict,self.R1C9_R2C10_Horizontal))
+        self.R9C5_R10C5_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R9C5_R10C5_Horizontal.setGeometry(QtCore.QRect(180, 450, 39, 8))
+        self.R9C5_R10C5_Horizontal.setText("")
+        self.R9C5_R10C5_Horizontal.setObjectName("R9C5_R10C5_Horizontal")
+        self.R9C5_R10C5_Horizontal.clicked.connect(partial(self.addtodict,self.R9C5_R10C5_Horizontal))
 
         #--------------------------------------------------------------------
         
-        self.R1C13_R2C14_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C13_R2C14_Horizontal.setGeometry(QtCore.QRect(60, 650, 39, 8))
-        self.R1C13_R2C14_Horizontal.setText("")
-        self.R1C13_R2C14_Horizontal.setObjectName("R1C13_R2C14_Horizontal")
-        self.R1C13_R2C14_Horizontal.clicked.connect(partial(self.addtodict,self.R1C13_R2C14_Horizontal))
+        self.R13C2_R14C2_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R13C2_R14C2_Horizontal.setGeometry(QtCore.QRect(60, 650, 39, 8))
+        self.R13C2_R14C2_Horizontal.setText("")
+        self.R13C2_R14C2_Horizontal.setObjectName("R13C2_R14C2_Horizontal")
+        self.R13C2_R14C2_Horizontal.clicked.connect(partial(self.addtodict,self.R13C2_R14C2_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -2165,11 +2165,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R1C13_R2C14_Horizontal_2 = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C13_R2C14_Horizontal_2.setGeometry(QtCore.QRect(180, 650, 39, 8))
-        self.R1C13_R2C14_Horizontal_2.setText("")
-        self.R1C13_R2C14_Horizontal_2.setObjectName("R1C13_R2C14_Horizontal_2")
-        self.R1C13_R2C14_Horizontal_2.clicked.connect(partial(self.addtodict,self.R1C13_R2C14_Horizontal_2))
+        self.R13C5_R14C5_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R13C5_R14C5_Horizontal.setGeometry(QtCore.QRect(180, 650, 39, 8))
+        self.R13C5_R14C5_Horizontal.setText("")
+        self.R13C5_R14C5_Horizontal.setObjectName("R13C5_R14C5_Horizontal")
+        self.R13C5_R14C5_Horizontal.clicked.connect(partial(self.addtodict,self.R13C5_R14C5_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -2230,11 +2230,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R1C6_R2C7_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C6_R2C7_Horizontal.setGeometry(QtCore.QRect(180, 350, 39, 8))
-        self.R1C6_R2C7_Horizontal.setText("")
-        self.R1C6_R2C7_Horizontal.setObjectName("R1C6_R2C7_Horizontal")
-        self.R1C6_R2C7_Horizontal.clicked.connect(partial(self.addtodict,self.R1C6_R2C7_Horizontal))
+        self.R7C5_R8C5_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R7C5_R8C5_Horizontal.setGeometry(QtCore.QRect(180, 350, 39, 8))
+        self.R7C5_R8C5_Horizontal.setText("")
+        self.R7C5_R8C5_Horizontal.setObjectName("R7C5_R8C5_Horizontal")
+        self.R7C5_R8C5_Horizontal.clicked.connect(partial(self.addtodict,self.R7C5_R8C5_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -2280,11 +2280,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R12C1_R13C1_Vertical = QtWidgets.QPushButton(self.centralwidget)
-        self.R12C1_R13C1_Vertical.setGeometry(QtCore.QRect(497, 20, 8, 33))
-        self.R12C1_R13C1_Vertical.setText("")
-        self.R12C1_R13C1_Vertical.setObjectName("R12C1_R13C1_Vertical")
-        self.R12C1_R13C1_Vertical.clicked.connect(partial(self.addtodict,self.R12C1_R13C1_Vertical))
+        self.R1C12_R1C13_Vertical = QtWidgets.QPushButton(self.centralwidget)
+        self.R1C12_R1C13_Vertical.setGeometry(QtCore.QRect(497, 20, 8, 33))
+        self.R1C12_R1C13_Vertical.setText("")
+        self.R1C12_R1C13_Vertical.setObjectName("R1C12_R1C13_Vertical")
+        self.R1C12_R1C13_Vertical.clicked.connect(partial(self.addtodict,self.R1C12_R1C13_Vertical))
 
         #--------------------------------------------------------------------
         
@@ -2555,11 +2555,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R111C2_R12C2_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R111C2_R12C2_Horizontal.setGeometry(QtCore.QRect(60, 550, 39, 8))
-        self.R111C2_R12C2_Horizontal.setText("")
-        self.R111C2_R12C2_Horizontal.setObjectName("R111C2_R12C2_Horizontal")
-        self.R111C2_R12C2_Horizontal.clicked.connect(partial(self.addtodict,self.R111C2_R12C2_Horizontal))
+        self.R11C2_R12C2_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R11C2_R12C2_Horizontal.setGeometry(QtCore.QRect(60, 550, 39, 8))
+        self.R11C2_R12C2_Horizontal.setText("")
+        self.R11C2_R12C2_Horizontal.setObjectName("R11C2_R12C2_Horizontal")
+        self.R11C2_R12C2_Horizontal.clicked.connect(partial(self.addtodict,self.R11C2_R12C2_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -3204,11 +3204,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R1C11_R2C12_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C11_R2C12_Horizontal.setGeometry(QtCore.QRect(180, 550, 39, 8))
-        self.R1C11_R2C12_Horizontal.setText("")
-        self.R1C11_R2C12_Horizontal.setObjectName("R1C11_R2C12_Horizontal")
-        self.R1C11_R2C12_Horizontal.clicked.connect(partial(self.addtodict,self.R1C11_R2C12_Horizontal))
+        self.R11C5_R12C5_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R11C5_R12C5_Horizontal.setGeometry(QtCore.QRect(180, 550, 39, 8))
+        self.R11C5_R12C5_Horizontal.setText("")
+        self.R11C5_R12C5_Horizontal.setObjectName("R11C5_R12C5_Horizontal")
+        self.R11C5_R12C5_Horizontal.clicked.connect(partial(self.addtodict,self.R11C5_R12C5_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -3252,11 +3252,11 @@ class Ui_MainWindow(object):
 
         #--------------------------------------------------------------------
         
-        self.R1C10_R2C11_Horizontal = QtWidgets.QPushButton(self.centralwidget)
-        self.R1C10_R2C11_Horizontal.setGeometry(QtCore.QRect(180, 500, 39, 8))
-        self.R1C10_R2C11_Horizontal.setText("")
-        self.R1C10_R2C11_Horizontal.setObjectName("R1C10_R2C11_Horizontal")
-        self.R1C10_R2C11_Horizontal.clicked.connect(partial(self.addtodict,self.R1C10_R2C11_Horizontal))
+        self.R10C5_R11C5_Horizontal = QtWidgets.QPushButton(self.centralwidget)
+        self.R10C5_R11C5_Horizontal.setGeometry(QtCore.QRect(180, 500, 39, 8))
+        self.R10C5_R11C5_Horizontal.setText("")
+        self.R10C5_R11C5_Horizontal.setObjectName("R10C5_R11C5_Horizontal")
+        self.R10C5_R11C5_Horizontal.clicked.connect(partial(self.addtodict,self.R10C5_R11C5_Horizontal))
 
         #--------------------------------------------------------------------
         
@@ -3478,11 +3478,12 @@ class Ui_MainWindow(object):
 
     def addtodict(self,btnObject):
         try:
-            if maze_dic[btnObject]:
-                btnObject.setStyleSheet("background-color: white")
+            if maze_dic[btnObject] == True:
+                #("background-color: rgb(255, 255, 255)");
+                btnObject.setStyleSheet("")
                 maze_dic[btnObject] = False
                 #print("turn white")
-            else:
+            elif maze_dic[btnObject] == False:
                 btnObject.setStyleSheet("background-color: red")
                 maze_dic[btnObject] = True
                 #print("turn red")
@@ -3493,36 +3494,40 @@ class Ui_MainWindow(object):
             #print("Initialize turn red")
 
     def toStr(self):
+        string = []
+        print(maze_dic)
+        print(len(maze_dic))
         for i in maze_dic:
-            s =  i.objectName().split("_")
-            #print(s[0],s[1],s[2])
+            if maze_dic[i] :
+                s =  i.objectName().split("_")
+                #print(s[0],s[1],s[2])
             
-            #=========================================
-            # let's extract rows and columns of
-            # each cells
-            #=========================================
+                #=========================================
+                # let's extract rows and columns of
+                # each cells
+                #=========================================
 
-            temp1 = s[0].split("C")
-            temp2 = s[1].split("C")
+                temp1 = s[0].split("C")
+                temp2 = s[1].split("C")
 
-            r1 = int(temp1[0][1:])
-            c1 = int(temp1[1])
-            r2 = int(temp2[0][1:])
-            c2 = int(temp2[1])
+                r1 = int(temp1[0][1:])
+                c1 = int(temp1[1])
+                r2 = int(temp2[0][1:])
+                c2 = int(temp2[1])
 
-            if(s[2]== "Horizontal"):
-                #print("wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[2] = 1;")
-                #print("wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[0] = 1;")
+                if(s[2]== "Horizontal"):
+                    #print("wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[2] = 1;")
+                    #print("wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[0] = 1;")
 
-                string.append( "wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[2] = 1;")
-                string.append( "wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[0] = 1;")
+                    string.append( "wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[2] = 1;")
+                    string.append( "wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[0] = 1;")
                 
-            else:
-                #print("wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[1] = 1;")
-                #print("wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[3] = 1;")
+                elif (s[2]== "Vertical") :
+                    #print("wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[1] = 1;")
+                    #print("wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[3] = 1;")
 
-                string.append( "wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[1] = 1;")
-                string.append( "wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[3] = 1;")
+                    string.append( "wm.cells["+ str(r1-1) +"]["+ str(c1-1) +"].walls[1] = 1;")
+                    string.append( "wm.cells["+ str(r2-1) +"]["+ str(c2-1) +"].walls[3] = 1;")
 
         #print(string)
         filename = "wall_maze" + str(int(time.time())) + ".txt"
